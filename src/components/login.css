@@ -1,0 +1,22 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login_logo {
+  width: 100%;
+  padding: 40px;
+  object-fit: contain;
+  max-height: 220px;
+}
+
+.login > a {
+  padding: 20px;
+  background-color: #1db954;
+  border-radius: 99px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
