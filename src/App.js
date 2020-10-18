@@ -23,6 +23,8 @@ function App() {
       spotify
         .getUserPlaylists()
         .then((playlist) => dispatch({ type: "SET_PLAYLIST", playlist }));
+
+      // spotify.
     }
   }, []);
 
